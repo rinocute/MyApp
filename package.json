@@ -1,0 +1,25 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "Mean Stack Application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "Mean",
+    "Stack"
+  ],
+  "author": "VinothKumar",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.5",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0",
+    "passport-facebook": "^2.1.1"
+  }
+}
